@@ -2,4 +2,19 @@ name: Flattern
 type: theme
 description: Flattern Dupal Theme
 core: 8.x
-screenshot: flattern.templates.screenshot.png
+screenshot: screenshot.png
+
+regions:
+  header: Header
+  content: Content
+  primary_menu: Primary Menu
+  secondary_menu: Secondary Menu
+  sidebar_left: Left Sidebar
+  sidebar_right: Right Sidebar
+  footer: Footer
+  page_top: Page Top
+  page_bottom: Page Bottom
+
+libraries:
+  - flattern/global-css
+  - flattern/global-js
